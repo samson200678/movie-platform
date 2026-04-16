@@ -22,7 +22,7 @@ async function searchMovies(){
     } catch (error){
         console.error("Error:",error);
         document.getElementById("movies").innerHTML =
-      "<p>Something went wrong 😢</p>";
+      "<p>Something went wrong </p>";
   }
     }
     
